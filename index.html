@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Momontom</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="stylesheet" href="src/username.css" />
+    <link rel="stylesheet" href="src/quote.css" />
+    <link rel="stylesheet" href="src/todolist.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Jua&family=Nanum+Gothic&family=Roboto&display=swap");
+    </style>
+  </head>
+
+  <body>
+    <!-- clock -->
+    <h1 id="clock-h1"></h1>
+    <h2 id="clock-h2"></h2>
+
+    <!-- weather -->
+    <div id="weather-div">
+      <span class="js-weather-place"></span>
+      <span class="js-weather"></span>
+      <span class="js-weather-wind"></span>
+      <span class="js-weather-humidity"></span>
+    </div>
+
+    <!-- USERNAME -->
+    <form id="login-form" class="hidden">
+      <input
+        type="text"
+        placeholder="What is your Name?"
+        required
+        maxlength="15"
+      />
+    </form>
+    <div id="name-container">
+      <div id="name">
+        <h1 id="greeting" class="hidden"></h1>
+        <span id="delete">✖️</span>
+      </div>
+    </div>
+    <!-- 랜덤 명언 -->
+    <div id="quote">
+      <span></span>
+      <span></span>
+    </div>
+
+    <!-- to do list -->
+    <div id="todolist">
+      <h1>Tasks</h1>
+      <form id="todo-form">
+        <input type="text" placeholder="Add task" required />
+      </form>
+      <h2>List</h2>
+      <ul id="todo-list"></ul>
+    </div>
+
+    <!-- js 연동 -->
+    <script src="src/index.js"></script>
+    <script src="src/weather.js"></script>
+    <script src="src/username.js"></script>
+    <script src="src/quote.js"></script>
+    <script src="src/todolist.js"></script>
+  </body>
+</html>
