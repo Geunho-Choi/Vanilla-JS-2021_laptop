@@ -7,7 +7,7 @@ const IMG_NUMBER = 7; // 2- . 배경사진 숫자 3개 변수에 지정
 
 function paintImage(imgNumber) {
   const image = new Image(); // 2-3. new Image 객체생성
-  image.src = `images/${imgNumber}.jpg`;
+  image.src = `images/${imgNumber}.JPG`;
   image.classList.add("backgroundImage"); // 2-4. 사진 크기 맞추기 위해서 image태그에 class추가
   body.appendChild(image); // 2-5. 배경사진 추가
 }
