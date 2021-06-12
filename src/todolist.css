@@ -1,0 +1,56 @@
+#todolist {
+  position: absolute;
+  right: 80px;
+  top: 50px;
+  width: 250px;
+}
+
+#todolist h1,
+#todolist h2,
+#todolist ul {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  /* color: wheat; */
+  color: navajowhite;
+  opacity: 0.8;
+  text-shadow: aquamarine 1px 0 50px;
+}
+#todolist ul {
+  font-size: 25px;
+  font-family: cursive;
+  text-shadow: black 2px 0 30px;
+  line-height: 2;
+}
+
+#todolist h2 {
+  text-shadow: antiquewhite 1px 0 50px;
+}
+
+#todo-form input {
+  width: 200px;
+  border-style: none;
+  padding: 20px;
+  opacity: 0.5;
+  border-radius: 20px;
+}
+
+#todo-form input:focus {
+  background-color: peachpuff;
+  opacity: 0.8;
+  outline: none;
+}
+
+#todo-list li button {
+  margin-left: 7px;
+  border-style: none;
+  background-color: transparent;
+}
+
+#todo-list li {
+  display: flex;
+  align-items: center;
+}
+
+#todo-list li button:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,22 @@
+#quote {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  bottom: 70px;
+  justify-content: center;
+  width: 100%;
+  color: whitesmoke;
+  font-size: 25px;
+  opacity: 0.8;
+  text-shadow: tomato 1px 0 30px;
+  line-height: 2;
+  /* font-family: "Courier New", Courier, monospace; */
+  /* font-family: "Roboto", sans-serif; */
+  /* font-family: "Nanum Gothic", sans-serif; */
+  font-family: "Jua", sans-serif;
+}
+
+#quote span:last-child {
+  font-size: 14px;
+}
