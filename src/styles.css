@@ -42,13 +42,13 @@ body {
   line-height: 2;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  font-size: 20px;
+  font-size: 30px;
   /* font-style: italic; */
   color: wheat;
   /* text-shadow: coral 0 1px; */
   /* text-shadow: 1px 1px 2px black; */
   text-shadow: 1px 1px 30px purple;
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
 #clock-h1 {

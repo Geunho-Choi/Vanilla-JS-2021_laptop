@@ -2,7 +2,7 @@
   position: absolute;
   right: 80px;
   top: 50px;
-  width: 250px;
+  width: 300px;
 }
 
 #todolist h1,
@@ -27,10 +27,11 @@
 }
 
 #todo-form input {
-  width: 200px;
+  width: 250px;
   border-style: none;
   padding: 20px;
   opacity: 0.5;
+  font-size: 20px;
   border-radius: 20px;
 }
 
