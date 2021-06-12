@@ -13,11 +13,12 @@ body {
 
 #login-form input {
   border-style: none;
-  width: 120px;
+  width: 180px;
+  font-size: 20px;
   padding: 20px;
   opacity: 0.5;
   position: absolute;
-  top: 80px;
+  top: 70px;
   border-radius: 20px;
 }
 

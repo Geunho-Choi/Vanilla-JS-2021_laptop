@@ -7,7 +7,7 @@
   justify-content: center;
   width: 100%;
   color: whitesmoke;
-  font-size: 25px;
+  font-size: 28px;
   opacity: 0.8;
   text-shadow: tomato 1px 0 30px;
   line-height: 2;
@@ -18,5 +18,5 @@
 }
 
 #quote span:last-child {
-  font-size: 14px;
+  font-size: 20px;
 }
